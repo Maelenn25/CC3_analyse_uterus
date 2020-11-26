@@ -1,0 +1,13 @@
+---
+title: "R Notebook"
+output: 
+  github_document:
+    toc: true
+    toc_depth: 2
+---
+
+```{r}
+uter_metadata <- read.delim("uter_metadata.txt", header=TRUE, sep=",")
+```
+
+

@@ -1,0 +1,11 @@
+---
+title: "R Notebook"
+output: 
+  github_document:
+    toc: true
+    toc_depth: 2
+---
+
+```{r}
+uter_metadata <- read.delim("SraRunTable.txt", header=TRUE, sep=",")
+```
